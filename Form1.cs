@@ -6,5 +6,10 @@ namespace WorkoutManager
         {
             InitializeComponent();
         }
+
+        private void Ala_Click(object sender, EventArgs e)
+        {
+            label1.Visible = true;
+        }
     }
 }
