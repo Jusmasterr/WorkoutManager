@@ -20,7 +20,7 @@ namespace WorkoutManager
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            label1.Text = "und homosexuell";
+            label1.Text = "und homosexuell wie der Liam";
         }
     }
 }
