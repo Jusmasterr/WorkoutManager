@@ -28,59 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
-            Ala = new Button();
-            label1 = new Label();
-            timer1 = new System.Windows.Forms.Timer(components);
-            SuspendLayout();
-            // 
-            // Ala
-            // 
-            Ala.Location = new Point(478, 156);
-            Ala.Margin = new Padding(4);
-            Ala.Name = "Ala";
-            Ala.Size = new Size(118, 36);
-            Ala.TabIndex = 0;
-            Ala.Text = "Elias";
-            Ala.UseVisualStyleBackColor = true;
-            Ala.Click += Ala_Click;
+            this.label1 = new System.Windows.Forms.Label();
+            this.SuspendLayout();
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(484, 355);
-            label1.Margin = new Padding(4, 0, 4, 0);
-            label1.Name = "label1";
-            label1.Size = new Size(106, 25);
-            label1.TabIndex = 1;
-            label1.Text = "Elias isch ge";
-            label1.Visible = false;
-            // 
-            // timer1
-            // 
-            timer1.Enabled = true;
-            timer1.Interval = 3000;
-            timer1.Tick += timer1_Tick;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(429, 166);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(128, 20);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Workout Manager";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1000, 562);
-            Controls.Add(label1);
-            Controls.Add(Ala);
-            Margin = new Padding(4);
-            Name = "Form1";
-            Text = "Form1";
-            Load += Form1_Load;
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
 
-        private Button Ala;
         private Label label1;
-        private System.Windows.Forms.Timer timer1;
     }
 }
