@@ -28,26 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.StartLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // StartLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(429, 166);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(128, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Workout Manager";
+            this.StartLabel.AutoSize = true;
+            this.StartLabel.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.StartLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.StartLabel.Font = new System.Drawing.Font("Fruity microfont", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.StartLabel.Location = new System.Drawing.Point(189, 9);
+            this.StartLabel.Name = "StartLabel";
+            this.StartLabel.Size = new System.Drawing.Size(432, 47);
+            this.StartLabel.TabIndex = 0;
+            this.StartLabel.Text = "Workout Manager";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.StartLabel);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Workout Manager";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -55,6 +58,6 @@
 
         #endregion
 
-        private Label label1;
+        private Label StartLabel;
     }
 }
