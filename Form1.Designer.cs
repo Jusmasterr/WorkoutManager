@@ -31,6 +31,7 @@
             this.StartLabel = new System.Windows.Forms.Label();
             this.BackgroundBox = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.BackgroundBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -54,7 +55,7 @@
             this.BackgroundBox.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.BackgroundBox.Location = new System.Drawing.Point(81, 25);
             this.BackgroundBox.Name = "BackgroundBox";
-            this.BackgroundBox.Size = new System.Drawing.Size(641, 69);
+            this.BackgroundBox.Size = new System.Drawing.Size(639, 69);
             this.BackgroundBox.TabIndex = 1;
             this.BackgroundBox.TabStop = false;
             // 
@@ -68,12 +69,25 @@
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(38)))), ((int)(((byte)(74)))));
+            this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(249)))), ((int)(((byte)(210)))));
+            this.button1.Location = new System.Drawing.Point(283, 129);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(224, 38);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Create schedul";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(214)))), ((int)(((byte)(132)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.StartLabel);
             this.Controls.Add(this.BackgroundBox);
             this.Controls.Add(this.pictureBox1);
@@ -91,5 +105,6 @@
         private Label StartLabel;
         private PictureBox BackgroundBox;
         private PictureBox pictureBox1;
+        private Button button1;
     }
 }
