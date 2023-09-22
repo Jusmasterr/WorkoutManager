@@ -37,7 +37,7 @@ namespace WorkoutManager
         {
             this.Hide();
 
-            Form Form3 = new Form2();
+            Form Form3 = new Form3();
             Form3.ShowDialog();
         }
     }

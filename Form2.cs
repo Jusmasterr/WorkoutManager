@@ -29,5 +29,25 @@ namespace WorkoutManager
         {
 
         }
+
+        private void richTextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+            string machine = comboBox1.Text;
+            int sessionsPerWeek = Convert.ToInt32(richTextBox2.Text);
+            int weight = Convert.ToInt32(richTextBox3.Text);
+            int repetitions = Convert.ToInt32(richTextBox4.Text);
+
+            // Erstellen Sie einen neuen Trainingsplan und fügen Sie ihn zur Liste hinzu
+            session newSession = new session(machine, sessionsPerWeek, weight, repetitions);
+
+            // Schließen Sie das Formular oder führen Sie andere Aktionen aus
+
+        }
     }
 }
