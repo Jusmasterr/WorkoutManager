@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WorkoutManager
 {
-    public partial class Form2 : Form
+    public partial class Form3 : Form
     {
-        public Form2()
+        public Form3()
         {
             InitializeComponent();
         }
@@ -25,9 +25,16 @@ namespace WorkoutManager
             Form1.ShowDialog();
         }
 
-        private void Form2_Load(object sender, EventArgs e)
+        private void StartLabel_Click(object sender, EventArgs e)
         {
+        }
 
+        private void BackgroundBox_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
         }
     }
 }

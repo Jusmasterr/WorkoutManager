@@ -1,6 +1,6 @@
 ﻿namespace WorkoutManager
 {
-    partial class Form2
+    partial class Form3
     {
         /// <summary>
         /// Required designer variable.
@@ -42,11 +42,11 @@
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Arial Rounded MT Bold", 10F, FontStyle.Regular, GraphicsUnit.Point);
             button1.ForeColor = Color.FromArgb(223, 169, 183);
-            button1.Location = new Point(26, 117);
-            button1.Margin = new Padding(8, 8, 8, 8);
+            button1.Location = new Point(27, 118);
+            button1.Margin = new Padding(8);
             button1.Name = "button1";
             button1.Size = new Size(180, 88);
-            button1.TabIndex = 7;
+            button1.TabIndex = 11;
             button1.Text = "back";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
@@ -58,36 +58,39 @@
             StartLabel.BorderStyle = BorderStyle.FixedSingle;
             StartLabel.Font = new Font("Microsoft Sans Serif", 30F, FontStyle.Bold, GraphicsUnit.Point);
             StartLabel.ForeColor = Color.FromArgb(26, 40, 31);
-            StartLabel.Location = new Point(284, 117);
+            StartLabel.Location = new Point(285, 118);
             StartLabel.Margin = new Padding(8, 0, 8, 0);
             StartLabel.Name = "StartLabel";
             StartLabel.Size = new Size(1028, 137);
-            StartLabel.TabIndex = 5;
+            StartLabel.TabIndex = 9;
             StartLabel.Text = "Workout Manager";
+            StartLabel.Click += StartLabel_Click;
             // 
             // BackgroundBox
             // 
             BackgroundBox.BackColor = Color.FromArgb(206, 123, 145);
             BackgroundBox.BorderStyle = BorderStyle.FixedSingle;
-            BackgroundBox.Location = new Point(-206, 90);
-            BackgroundBox.Margin = new Padding(8, 8, 8, 8);
+            BackgroundBox.Location = new Point(-205, 91);
+            BackgroundBox.Margin = new Padding(8);
             BackgroundBox.Name = "BackgroundBox";
             BackgroundBox.Size = new Size(2010, 215);
-            BackgroundBox.TabIndex = 6;
+            BackgroundBox.TabIndex = 10;
             BackgroundBox.TabStop = false;
+            BackgroundBox.Click += BackgroundBox_Click;
             // 
             // pictureBox1
             // 
             pictureBox1.BackColor = Color.FromArgb(99, 82, 85);
             pictureBox1.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox1.Location = new Point(-206, 21);
-            pictureBox1.Margin = new Padding(8, 8, 8, 8);
+            pictureBox1.Location = new Point(-205, 22);
+            pictureBox1.Margin = new Padding(8);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(2010, 820);
-            pictureBox1.TabIndex = 8;
+            pictureBox1.TabIndex = 12;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
-            // Form2
+            // Form3
             // 
             AutoScaleDimensions = new SizeF(20F, 48F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -96,10 +99,8 @@
             Controls.Add(StartLabel);
             Controls.Add(BackgroundBox);
             Controls.Add(pictureBox1);
-            Margin = new Padding(6, 6, 6, 6);
-            Name = "Form2";
-            Text = "Form2";
-            Load += Form2_Load;
+            Name = "Form3";
+            Text = "Form3";
             ((System.ComponentModel.ISupportInitialize)BackgroundBox).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
