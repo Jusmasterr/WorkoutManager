@@ -171,6 +171,7 @@
             button3.TabIndex = 18;
             button3.Text = "Submit";
             button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // comboBox1
             // 
@@ -473,6 +474,7 @@
             // 
             // timer1
             // 
+            timer1.Enabled = true;
             timer1.Tick += timer1_Tick;
             // 
             // Form2

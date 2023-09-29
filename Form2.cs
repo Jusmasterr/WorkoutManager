@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -218,14 +219,85 @@ namespace WorkoutManager
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+
+            // Für adddataBTN1:
             if (comboBox7.Text == "Rest day")
             {
                 adddataBTN1.Enabled = false;
             }
             else
             {
-                adddataBTN1.Enabled = true; 
+                adddataBTN1.Enabled = true;
             }
+
+            // Für adddataBTN2:
+            if (comboBox2.Text == "Rest day")
+            {
+                adddataBTN2.Enabled = false;
+            }
+            else
+            {
+                adddataBTN2.Enabled = true;
+            }
+
+            // Für adddataBTN3:
+            if (comboBox1.Text == "Rest day")
+            {
+                adddataBTN3.Enabled = false;
+            }
+            else
+            {
+                adddataBTN3.Enabled = true;
+            }
+
+            // Für adddataBTN4:
+            if (comboBox3.Text == "Rest day")
+            {
+                adddataBTN4.Enabled = false;
+            }
+            else
+            {
+                adddataBTN4.Enabled = true;
+            }
+
+            // Für adddataBTN5:
+            if (comboBox4.Text == "Rest day")
+            {
+                adddataBTN5.Enabled = false;
+            }
+            else
+            {
+                adddataBTN5.Enabled = true;
+            }
+
+            // Für adddataBTN6:
+            if (comboBox5.Text == "Rest day")
+            {
+                adddataBTN6.Enabled = false;
+            }
+            else
+            {
+                adddataBTN6.Enabled = true;
+            }
+
+            // Für adddataBTN7:
+            if (comboBox6.Text == "Rest day")
+            {
+                adddataBTN7.Enabled = false;
+            }
+            else
+            {
+                adddataBTN7.Enabled = true;
+            }
+
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ScheduleCreatedPopUp scheduleCreatedPopUp = new ScheduleCreatedPopUp();
+            this.Controls.Add(scheduleCreatedPopUp);
+            scheduleCreatedPopUp.BringToFront();
         }
     }
 }
