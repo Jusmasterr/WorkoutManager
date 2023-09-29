@@ -52,8 +52,9 @@
             button2.Name = "button2";
             button2.Size = new Size(218, 46);
             button2.TabIndex = 23;
-            button2.Text = "create";
+            button2.Text = "open schedule";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // richTextBox4
             // 
@@ -160,7 +161,7 @@
             Controls.Add(StartLabel);
             Controls.Add(BackgroundBox);
             Controls.Add(pictureBox1);
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
             Name = "Form3";
             Text = "Form3";
             ((System.ComponentModel.ISupportInitialize)BackgroundBox).EndInit();

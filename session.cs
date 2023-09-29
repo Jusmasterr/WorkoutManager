@@ -27,5 +27,25 @@ public class session
     {
         return _sessions;
     }
-}
 
+    // Getter-Methoden für die Eigenschaften
+    public string GetMachine()
+    {
+        return _machine;
+    }
+
+    public int GetSessionsPerWeek()
+    {
+        return _sessionsPerWeek;
+    }
+
+    public int GetWeight()
+    {
+        return _weight;
+    }
+
+    public int GetRepetitions()
+    {
+        return _repetitions;
+    }
+}
