@@ -63,15 +63,7 @@ namespace WorkoutManager
 
         public void button2_Click(object sender, EventArgs e)
         {
-            List<session> sessions = session.GetSessions();
-
-            foreach (session session in sessions)
-            {
-                string machine = session.Machine; // Nehmen Sie an, es gibt eine Eigenschaft Machine in der session-Klasse
-                int sessionsPerWeek = session.SessionsPerWeek; // Nehmen Sie an, es gibt eine Eigenschaft SessionsPerWeek
-                int weight = session.Weight;
-                int repetititions = session.repetitions;
-            }
+            
         }
     }
 }
