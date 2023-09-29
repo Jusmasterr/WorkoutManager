@@ -15,7 +15,8 @@
 |  4   | Kann                | Funktional     | Als ein User möchte ich, dass ich Sessions abändern kann, damit ich nicht jedes mal wenn ich Daten ändern möchte eine neue Session erstellen muss. |
 |  5   | Muss                | Funktional     | Als ein User möchte ich, dass ich Sessions löschen kann, damit ich den Überblick nicht verliere. |
 |  6   | Muss                | Funktional     | Als ein User möchte ich, dass Fehleingaben abgefangen werden, damit ich das Programm nicht neu starten muss, wenn es abstürzt. |
-|  7   | Muss                | Randbedingung  | Als ein User möchte ich, dass die Applikation in Windows Forms entwickelt ist, damit das GUI übersichtlich ist.  |
+|  7   | Muss             | Randbedingung  | Als ein User möchte ich, dass die Applikation in Windows Forms entwickelt ist, damit das GUI übersichtlich ist.  |
+
 
 ## Planen
 | AP-№ | Frist | Zuständig | Beschreibung                                                               | geplante Zeit |
@@ -26,9 +27,13 @@
 | 4.A |  | Hitz | Session ändern | |
 | 5.A |  | Müller | Session löschen | |
 | 6.A |  | Hitz |  Fehlereingaben abfangen | |
-| 
+
 ## Entscheiden
 ## Realisieren
 ## Kontrolle
+| TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
+|---|---|---|---|
+| 1.1 | Applikation ist gestartet | Klicken auf create | neue Vorlage öffnet sich |
+| 2.1 | 
 ## Auswertung
 ## Porfolioeintrag
