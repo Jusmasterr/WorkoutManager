@@ -37,16 +37,44 @@ namespace WorkoutManager
 
         private void button2_Click(object sender, EventArgs e)
         {
+            try
+            {
+                string machine = comboBox1.Text;
+                //int sessionsPerWeek = Convert.ToInt32(richTextBox2.Text);
+                int weight = Convert.ToInt32(richTextBox3.Text);
+                int repetitions = Convert.ToInt32(richTextBox4.Text);
+                //session newSession = new session(machine, sessionsPerWeek, weight, repetitions);
+            }
+            catch 
+            {
+                UserControl UserControl1 = new UserControl();
+                UserControl1.Show();
+            }
 
-            string machine = comboBox1.Text;
-            int sessionsPerWeek = Convert.ToInt32(richTextBox2.Text);
-            int weight = Convert.ToInt32(richTextBox3.Text);
-            int repetitions = Convert.ToInt32(richTextBox4.Text);
+        }
 
-            // Erstellen Sie einen neuen Trainingsplan und fügen Sie ihn zur Liste hinzu
-            session newSession = new session(machine, sessionsPerWeek, weight, repetitions);
+        private void Form2_Load_1(object sender, EventArgs e)
+        {
 
-            // Schließen Sie das Formular oder führen Sie andere Aktionen aus
+        }
+
+        private void richTextBox2_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
         }
     }
