@@ -37,6 +37,6 @@
 | 2.1 | Applikation ist gestartet | klicken auf create | ver schiedene Geräte werden angezeigt |
 | 3.1 | Applikation gestartet | klicken auf schow schedule | vorhandene Pläne anzeigen |
 | 4.1 | vorhandene Pläne werden angezeigt | klicken auf Plan | Plan kann bearbeitet werden |
-| 5.1 | vorhandene Sessions werden angezeigt | 
+| 5.1 | vorhandene Sessions werden angezeigt | klicken auf Plan | Plan kann gelöscht werden |
 ## Auswertung
 ## Porfolioeintrag
