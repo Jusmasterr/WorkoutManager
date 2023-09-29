@@ -34,6 +34,6 @@
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 |---|---|---|---|
 | 1.1 | Applikation ist gestartet | Klicken auf create | neue Vorlage öffnet sich |
-| 2.1 | 
+| 2.1 | Applikation ist gestartet | klicken auf create | ver schiedene Geräte werden angezeigt |
 ## Auswertung
 ## Porfolioeintrag
