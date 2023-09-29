@@ -12,12 +12,21 @@
 |  1   | Muss                | Funktional     | Als ein User möchte ich, dass ich ein Workoutplan erstellen und dabei das Gerät, die Anzahl Trainingseinheiten pro Woche, das Gewicht und die Wiederholungen eingeben kann, damit ich ich mein Training planen kann. |
 |  2   | Muss                | Funktional     | Als ein User möchte ich, dass die Geräte Benchpress, Shoulderpress, Legpress, Legextension, Lat-pulldown und Bicep curls vorhanden sind, damit ich eine gute Auswahl an Geräten habe. |
 |  3   | Muss                | Funktional     | Als ein User möchte ich, dass ich die Session ansehen kann, damit ich meine Trainings planen kann. |
-|  4   | Kann                | Funktional     | Als ein USer möchte ich, dass ich Sessions abändern kann, damit ich nicht jedes mal wenn ich Daten ändern möchte eine neue Session erstellen muss. |
+|  4   | Kann                | Funktional     | Als ein User möchte ich, dass ich Sessions abändern kann, damit ich nicht jedes mal wenn ich Daten ändern möchte eine neue Session erstellen muss. |
 |  5   | Muss                | Funktional     | Als ein User möchte ich, dass ich Sessions löschen kann, damit ich den Überblick nicht verliere. |
 |  6   | Muss                | Funktional     | Als ein User möchte ich, dass Fehleingaben abgefangen werden, damit ich das Programm nicht neu starten muss, wenn es abstürzt. |
-|  7   | Muss                | Randbedingung  | Als ein User möchte ich, dass die Applikaiton in Windows Forms entwickelt ist, damit das GUI übersichtlich ist.                                   |
+|  7   | Muss                | Randbedingung  | Als ein User möchte ich, dass die Applikation in Windows Forms entwickelt ist, damit das GUI übersichtlich ist.  |
 
 ## Planen
+| AP-№ | Frist | Zuständig | Beschreibung                                                               | geplante Zeit |
+|------|-------|-----------|----------------------------------------------------------------------------|---------------|
+| 1.A|       |  Sacher | Workoutplan erstellen | |
+| 2.A |    | Meister | Geräte auswahl | |
+| 3.A |  | Müller | Session anschauen können | |
+| 4.A |  | Hitz | Session ändern | |
+| 5.A |  | Müller | Session löschen | |
+| 6.A |  | Hitz |  Fehlereingaben abfangen | |
+| 
 ## Entscheiden
 ## Realisieren
 ## Kontrolle
