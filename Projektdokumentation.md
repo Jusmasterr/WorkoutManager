@@ -34,8 +34,9 @@
 
 
 ## Entscheiden
-W
+Wir haben uns dazu entschieden, dass wir, wenn wir genug zeit ha
 ## Realisieren
+
 ## Kontrolle
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 |---|---|---|---|
