@@ -27,7 +27,7 @@
 | 4.A | 03.11.2023  | Sacher | Auswahl eines Gerätes an Workout tag | 15 Min|
 | 5.A | 03.11.2023  | Sacher | Eingabe des Gewichts | 30 Min |
 | 6.A | 03.11.2023  | Sacher | Eingabe der Wiederholungen | 30 Min |
-| 7.A | 03.11.2023  | Hitz   | Speichern aller Wokoutinformationen| 100 Min |
+| 7.A | 03.11.2023  | Hitz   | Speichern aller Workoutinformationen| 100 Min |
 | 8.A | 03.11.2023  | Hitz   | Fehleingaben abfangen | 60 Min |
 | 9.A | 03.11.2023  | Müller | Anzeigen von gespeicherten Workouts | 100 Min |
 | 10.A| 03.11.2023  | Müller | Löschen von gespeicherten Workouts | 30 Min |
