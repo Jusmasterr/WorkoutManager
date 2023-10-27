@@ -42,9 +42,10 @@
             label1.AutoSize = true;
             label1.BackColor = Color.WhiteSmoke;
             label1.BorderStyle = BorderStyle.FixedSingle;
-            label1.Location = new Point(33, 23);
+            label1.Location = new Point(66, 44);
+            label1.Margin = new Padding(6, 0, 6, 0);
             label1.Name = "label1";
-            label1.Size = new Size(422, 27);
+            label1.Size = new Size(844, 50);
             label1.TabIndex = 0;
             label1.Text = "Your workout schedule has succesfully been created";
             label1.Click += label1_Click;
@@ -53,10 +54,10 @@
             // 
             BackgroundBox.BackColor = Color.FromArgb(206, 123, 145);
             BackgroundBox.BorderStyle = BorderStyle.FixedSingle;
-            BackgroundBox.Location = new Point(13, 10);
-            BackgroundBox.Margin = new Padding(4);
+            BackgroundBox.Location = new Point(26, 19);
+            BackgroundBox.Margin = new Padding(8, 8, 8, 8);
             BackgroundBox.Name = "BackgroundBox";
-            BackgroundBox.Size = new Size(459, 52);
+            BackgroundBox.Size = new Size(916, 98);
             BackgroundBox.TabIndex = 7;
             BackgroundBox.TabStop = false;
             // 
@@ -66,10 +67,10 @@
             BackMenuBTN.FlatStyle = FlatStyle.Flat;
             BackMenuBTN.Font = new Font("Arial Rounded MT Bold", 10F, FontStyle.Regular, GraphicsUnit.Point);
             BackMenuBTN.ForeColor = Color.FromArgb(223, 169, 183);
-            BackMenuBTN.Location = new Point(23, 88);
-            BackMenuBTN.Margin = new Padding(4);
+            BackMenuBTN.Location = new Point(46, 169);
+            BackMenuBTN.Margin = new Padding(8, 8, 8, 8);
             BackMenuBTN.Name = "BackMenuBTN";
-            BackMenuBTN.Size = new Size(166, 33);
+            BackMenuBTN.Size = new Size(332, 63);
             BackMenuBTN.TabIndex = 40;
             BackMenuBTN.Text = "Back to menu";
             BackMenuBTN.UseVisualStyleBackColor = false;
@@ -81,28 +82,29 @@
             ViewSchedBTN.FlatStyle = FlatStyle.Flat;
             ViewSchedBTN.Font = new Font("Arial Rounded MT Bold", 10F, FontStyle.Regular, GraphicsUnit.Point);
             ViewSchedBTN.ForeColor = Color.FromArgb(223, 169, 183);
-            ViewSchedBTN.Location = new Point(289, 88);
-            ViewSchedBTN.Margin = new Padding(4);
+            ViewSchedBTN.Location = new Point(578, 169);
+            ViewSchedBTN.Margin = new Padding(8, 8, 8, 8);
             ViewSchedBTN.Name = "ViewSchedBTN";
-            ViewSchedBTN.Size = new Size(166, 33);
+            ViewSchedBTN.Size = new Size(332, 63);
             ViewSchedBTN.TabIndex = 41;
             ViewSchedBTN.Text = "view schedule";
             ViewSchedBTN.UseVisualStyleBackColor = false;
+            ViewSchedBTN.Click += ViewSchedBTN_Click;
             // 
             // pictureBox1
             // 
             pictureBox1.BackColor = Color.FromArgb(99, 82, 85);
             pictureBox1.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox1.Location = new Point(6, 4);
-            pictureBox1.Margin = new Padding(4);
+            pictureBox1.Location = new Point(12, 8);
+            pictureBox1.Margin = new Padding(8, 8, 8, 8);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(475, 142);
+            pictureBox1.Size = new Size(948, 271);
             pictureBox1.TabIndex = 42;
             pictureBox1.TabStop = false;
             // 
             // ScheduleCreatedPopUp
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(20F, 48F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             Controls.Add(ViewSchedBTN);
@@ -110,8 +112,9 @@
             Controls.Add(label1);
             Controls.Add(BackgroundBox);
             Controls.Add(pictureBox1);
+            Margin = new Padding(6, 6, 6, 6);
             Name = "ScheduleCreatedPopUp";
-            Size = new Size(485, 150);
+            Size = new Size(970, 288);
             ((System.ComponentModel.ISupportInitialize)BackgroundBox).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

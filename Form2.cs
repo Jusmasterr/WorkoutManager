@@ -293,11 +293,38 @@ namespace WorkoutManager
 
         }
 
+
+
         private void button3_Click(object sender, EventArgs e)
         {
             ScheduleCreatedPopUp scheduleCreatedPopUp = new ScheduleCreatedPopUp();
             this.Controls.Add(scheduleCreatedPopUp);
             scheduleCreatedPopUp.BringToFront();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox6_SelectedIndexChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
         }
     }
 }

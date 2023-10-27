@@ -19,14 +19,21 @@ namespace WorkoutManager
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+             
         }
 
         private void BackMenuBTN_Click(object sender, EventArgs e)
         {
-            this.ParentForm.Close(); 
+            this.ParentForm.Close();
             Form1 form1 = new Form1();
             form1.Show();
+        }
+
+        private void ViewSchedBTN_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form Form3 = new Form3();
+            Form3.ShowDialog();
         }
     }
 }
