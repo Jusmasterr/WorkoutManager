@@ -21,14 +21,20 @@
 ## Planen
 | AP-№ | Frist | Zuständig | Beschreibung                                                               | geplante Zeit |
 |------|-------|-----------|----------------------------------------------------------------------------|---------------|
-| 1.A|       |  Sacher | Workoutplan erstellen | |
-| 2.A |    | Meister | Geräte auswahl | |
-| 3.A |  | Müller | Session anschauen können | |
-| 4.A |  | Hitz | Session ändern | |
-| 5.A |  | Müller | Session löschen | |
-| 6.A |  | Hitz |  Fehlereingaben abfangen | |
+| 1.A | 03.11.2023  | Meister | GUI entwerfen | 180 Min|
+| 2.A | 03.11.2023  | Sacher  | Funktion von allen Buttons richitg implementieren | 50 Min |
+| 3.A | 03.11.2023  | Sacher | Auswahl zwischen Restday und Workout  | 10 Min |
+| 4.A | 03.11.2023  | Sacher | Auswahl eines Gerätes an Workout tag | 15 Min|
+| 5.A | 03.11.2023  | Sacher | Eingabe des Gewichts | 30 Min |
+| 6.A | 03.11.2023  | Sacher | Eingabe der Wiederholungen | 30 Min |
+| 7.A | 03.11.2023  | Hitz   | Speichern aller Wokoutinformationen| 100 Min |
+| 8.A | 03.11.2023  | Hitz   | Fehleingaben abfangen | 60 Min |
+| 9.A | 03.11.2023  | Müller | Anzeigen von gespeicherten Workouts | 100 Min |
+| 10.A| 03.11.2023  | Müller | Löschen von gespeicherten Workouts | 30 Min |
+
 
 ## Entscheiden
+W
 ## Realisieren
 ## Kontrolle
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
