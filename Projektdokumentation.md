@@ -34,16 +34,27 @@
 
 
 ## Entscheiden
-Wir haben uns dazu entschieden, dass wir, wenn wir genug zeit ha
+Wir haben uns dazu entschieden, die Abänderung von schon bereits erstellten Workouts nicht zu implementieren, da wir wahrscheinlich nicht genung Zeit haben, Wenn wir alle Muss-Anforderungen implementiert haben, werden wir diese Funktion als Erweiterung implementieren
 ## Realisieren
 
 ## Kontrolle
+### Testfälle
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 |---|---|---|---|
-| 1.1 | Applikation ist gestartet | Klicken auf create | neue Vorlage öffnet sich |
-| 2.1 | Applikation ist gestartet | klicken auf create | ver schiedene Geräte werden angezeigt |
-| 3.1 | Applikation gestartet | klicken auf schow schedule | vorhandene Pläne anzeigen |
-| 4.1 | vorhandene Pläne werden angezeigt | klicken auf Plan | Plan kann bearbeitet werden |
-| 5.1 | vorhandene Sessions werden angezeigt | klicken auf Plan | Plan kann gelöscht werden |
+| 1.1 | Applikation ist gestartet | Klicken auf "Create Schedule"| neue Vorlage öffnet sich |
+| 2.1 | Applikation ist gestartet | Klicken auf "Create Schedule" | Wochentage werden angezeigt |
+| 3.1 | Applikation ist gestartet | Klicken auf "Create Schedule" | Auswahl von Restday und Workout |
+| 4.1 | Workout wurde ausgewählt | Klicken auf "add Data" | Pop-up öffnet sich |
+| 5.1 | Pop-up ist geöffnet | Klicken auf "Maschinen" | Dropdown mnu mit allen verfügbaren Maschinen wird angezeigt. |
+| 6.1 | Pop-up ist geöffnet | Klicken auf Textfeld "Weight"  | Eingegebene Daten werden gespeichert |
+| 7.1 | Pop-up ist geöffnet | Klicken auf Textfeld "Repetitions"  | Eingegebene Daten werden gespeichert |
+| 8.1 | Applikation ist gestartet | Klicken auf "Show Schedule" | Auswahl der gespeicherten Workouts |
+| 9.1 | Auswahl der gespeicherten Workouts | Klicken auf ein beliebiges Workout | Ausgabe aller gespeicherten Daten |
+| 10.1| Applikation ist gestartet | Fehleingabe | "Falsche Eingabe, bitte erneut versuchen" |
+
+### Testprotokoll
+| Test-№ | TC-№ | Resultat | Datum | Tester |
+|---|---|---|---|---|
 ## Auswertung
+
 ## Porfolioeintrag
