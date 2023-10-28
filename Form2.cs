@@ -93,12 +93,7 @@ namespace WorkoutManager
 
         }
 
-        private void button9_Click(object sender, EventArgs e)
-        {
-            UserControl2 userControl2 = new UserControl2();
-            this.Controls.Add(userControl2);
-            userControl2.BringToFront();
-        }
+
 
 
         private void comboBox7_SelectedIndexChanged(object sender, EventArgs e)
@@ -175,11 +170,23 @@ namespace WorkoutManager
 
         }
 
-        private void button2_Click_2(object sender, EventArgs e)
+        List<UserControl2> userControlList = new List<UserControl2>(); // gespeicherte Daten
+        private void button9_Click(object sender, EventArgs e) // adddataBTN1
+        {
+            UserControl2 userControl2 = new UserControl2();
+            this.Controls.Add(userControl2);
+            userControl2.BringToFront();
+
+            userControlList.Add(userControl2);
+        }
+
+        private void button2_Click_2(object sender, EventArgs e) // adddataBTN2
         {
             UserControl2 userControl3 = new UserControl2();
             this.Controls.Add(userControl3);
             userControl3.BringToFront();
+
+            userControlList.Add(userControl3);
         }
 
         private void adddataBTN3_Click(object sender, EventArgs e)
@@ -187,6 +194,8 @@ namespace WorkoutManager
             UserControl2 userControl4 = new UserControl2();
             this.Controls.Add(userControl4);
             userControl4.BringToFront();
+
+            userControlList.Add(userControl4);
         }
 
         private void adddataBTN4_Click(object sender, EventArgs e)
@@ -194,6 +203,8 @@ namespace WorkoutManager
             UserControl2 userControl5 = new UserControl2();
             this.Controls.Add(userControl5);
             userControl5.BringToFront();
+
+            userControlList.Add(userControl5);
         }
 
         private void adddataBTN5_Click(object sender, EventArgs e)
@@ -201,6 +212,8 @@ namespace WorkoutManager
             UserControl2 userControl6 = new UserControl2();
             this.Controls.Add(userControl6);
             userControl6.BringToFront();
+
+            userControlList.Add(userControl6);
         }
 
         private void adddataBTN6_Click(object sender, EventArgs e)
@@ -208,6 +221,8 @@ namespace WorkoutManager
             UserControl2 userControl7 = new UserControl2();
             this.Controls.Add(userControl7);
             userControl7.BringToFront();
+
+            userControlList.Add(userControl7);
         }
 
         private void adddataBTN7_Click(object sender, EventArgs e)
@@ -215,6 +230,8 @@ namespace WorkoutManager
             UserControl2 userControl8 = new UserControl2();
             this.Controls.Add(userControl8);
             userControl8.BringToFront();
+
+            userControlList.Add(userControl8);
         }
 
         private void timer1_Tick(object sender, EventArgs e)
