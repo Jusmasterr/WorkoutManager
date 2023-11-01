@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
 using System.Drawing;
 using System.Linq;
@@ -12,9 +13,10 @@ namespace WorkoutManager
 {
     public partial class Form3 : Form
     {
-        public Form3()
+        public Form3(string sessionInformation)
         {
             InitializeComponent();
+             
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -139,6 +141,7 @@ namespace WorkoutManager
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+
         }
     }
 }

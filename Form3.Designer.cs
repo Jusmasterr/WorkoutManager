@@ -122,17 +122,17 @@
             label7.Location = new Point(467, 304);
             label7.Margin = new Padding(8, 0, 8, 0);
             label7.Name = "label7";
-            label7.Size = new Size(149, 48);
+            label7.Size = new Size(167, 48);
             label7.TabIndex = 57;
-            label7.Text = "Monday";
+            label7.Text = "Session 1\r\n";
             label7.Click += label7_Click;
             // 
             // pictureBox8
             // 
-            pictureBox8.Location = new Point(405, 277);
+            pictureBox8.Location = new Point(405, 295);
             pictureBox8.Margin = new Padding(8);
             pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(1576, 98);
+            pictureBox8.Size = new Size(1576, 80);
             pictureBox8.TabIndex = 56;
             pictureBox8.TabStop = false;
             pictureBox8.Click += pictureBox8_Click;
@@ -143,9 +143,9 @@
             label6.Location = new Point(467, 1034);
             label6.Margin = new Padding(8, 0, 8, 0);
             label6.Name = "label6";
-            label6.Size = new Size(135, 48);
+            label6.Size = new Size(167, 48);
             label6.TabIndex = 55;
-            label6.Text = "Sunday";
+            label6.Text = "Session 7";
             label6.Click += label6_Click;
             // 
             // pictureBox7
@@ -164,9 +164,9 @@
             label5.Location = new Point(467, 909);
             label5.Margin = new Padding(8, 0, 8, 0);
             label5.Name = "label5";
-            label5.Size = new Size(158, 48);
+            label5.Size = new Size(167, 48);
             label5.TabIndex = 53;
-            label5.Text = "Saturday";
+            label5.Text = "Session 6";
             label5.Click += label5_Click;
             // 
             // pictureBox6
@@ -185,9 +185,9 @@
             label4.Location = new Point(467, 784);
             label4.Margin = new Padding(8, 0, 8, 0);
             label4.Name = "label4";
-            label4.Size = new Size(116, 48);
+            label4.Size = new Size(167, 48);
             label4.TabIndex = 51;
-            label4.Text = "Friday";
+            label4.Text = "Session 5";
             label4.Click += label4_Click;
             // 
             // pictureBox5
@@ -206,9 +206,9 @@
             label3.Location = new Point(467, 661);
             label3.Margin = new Padding(8, 0, 8, 0);
             label3.Name = "label3";
-            label3.Size = new Size(163, 48);
+            label3.Size = new Size(167, 48);
             label3.TabIndex = 49;
-            label3.Text = "Thursday";
+            label3.Text = "Session 4";
             label3.Click += label3_Click;
             // 
             // pictureBox4
@@ -227,9 +227,9 @@
             label2.Location = new Point(467, 538);
             label2.Margin = new Padding(8, 0, 8, 0);
             label2.Name = "label2";
-            label2.Size = new Size(203, 48);
+            label2.Size = new Size(167, 48);
             label2.TabIndex = 47;
-            label2.Text = "Wednesday";
+            label2.Text = "Session 3";
             label2.Click += label2_Click;
             // 
             // pictureBox3
@@ -248,9 +248,9 @@
             label1.Location = new Point(467, 417);
             label1.Margin = new Padding(8, 0, 8, 0);
             label1.Name = "label1";
-            label1.Size = new Size(149, 48);
+            label1.Size = new Size(167, 48);
             label1.TabIndex = 45;
-            label1.Text = "Tuesday";
+            label1.Text = "Session 2";
             label1.Click += label1_Click;
             // 
             // pictureBox2

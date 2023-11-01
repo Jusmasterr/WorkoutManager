@@ -32,8 +32,8 @@ namespace WorkoutManager
         private void ViewSchedBTN_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form Form3 = new Form3();
-            Form3.ShowDialog();
+            Form4 form4 = new Form4();
+            form4.Show();
         }
     }
 }
