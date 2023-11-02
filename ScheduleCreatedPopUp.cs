@@ -19,7 +19,7 @@ namespace WorkoutManager
 
         private void label1_Click(object sender, EventArgs e)
         {
-             
+
         }
 
         private void BackMenuBTN_Click(object sender, EventArgs e)
@@ -34,6 +34,11 @@ namespace WorkoutManager
             this.Hide();
             Form4 form4 = new Form4();
             form4.Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

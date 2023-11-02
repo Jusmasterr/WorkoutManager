@@ -12,104 +12,64 @@ namespace WorkoutManager
 {
     public partial class Form4 : Form
     {
+        private List<ListBox> listBoxes = new List<ListBox>();
+
         public Form4()
         {
             InitializeComponent();
-             
+            InitializeListBoxes();
+            UpdateListBox();
         }
 
-        private void Form4_Load(object sender, EventArgs e)
+        private void InitializeListBoxes()
         {
+            for (int i = 0; i < 7; i++)
+            {
+                ListBox listBox = new ListBox();
+                listBox.Location = new Point(10, 10 + i * 50); // Passen Sie die Position an
+                listBox.Size = new Size(200, 150); // Passen Sie die Größe an
+                listBox.SelectedIndexChanged += ListBox_SelectedIndexChanged;
+                listBoxes.Add(listBox);
+                this.Controls.Add(listBox);
+            }
+        }
 
-            this.Controls.Add(listBox1);
-            listBox1.Items.Add("Session 1");
-            listBox2.Items.Add("Session 2");
-            listBox3.Items.Add("Session 3");
-            listBox4.Items.Add("Session 4");
-            listBox5.Items.Add("Session 5");
-            listBox6.Items.Add("Session 6");
-            listBox7.Items.Add("Session 7");
+        public void UpdateListBox()
+        {
+            // Holen Sie die gespeicherten Sitzungen aus Form2
+            if (Application.OpenForms["Form2"] is Form2 form2)
+            {
+                List<string> savedSessions = form2.GetSavedSessions();
 
-            listBox1.SelectedIndexChanged += listBox1_SelectedIndexChanged;
+                // Löschen Sie alle vorhandenen Elemente in den Listboxen
+                foreach (ListBox listBox in listBoxes)
+                {
+                    listBox.Items.Clear();
+                }
+
+                // Fügen Sie die gespeicherten Sitzungen zu den entsprechenden Listboxen hinzu
+                foreach (string session in savedSessions)
+                {
+                    foreach (ListBox listBox in listBoxes)
+                    {
+                        listBox.Items.Add(session);
+                    }
+                }
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
         {
             this.Hide();
             Form form2 = new Form2();
             form2.ShowDialog();
         }
 
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void ListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (listBox1.SelectedItem != null)
+            if (sender is ListBox listBox && listBox.SelectedItem != null)
             {
-                string ausgewählteSitzung = listBox1.SelectedItem.ToString();
-                Form form3 = new Form3(ausgewählteSitzung);
-                form3.Show();
-            }
-        }
-
-        private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (listBox2.SelectedItem != null)
-            {
-                string ausgewählteSitzung = listBox2.SelectedItem.ToString();
-                Form form3 = new Form3(ausgewählteSitzung);
-                form3.Show();
-            }
-        }
-
-        private void listBox3_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (listBox3.SelectedItem != null)
-            {
-                string ausgewählteSitzung = listBox3.SelectedItem.ToString();
-                Form form3 = new Form3(ausgewählteSitzung);
-                form3.Show();
-            }
-        }
-
-        private void listBox4_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (listBox4.SelectedItem != null)
-            {
-                string ausgewählteSitzung = listBox4.SelectedItem.ToString();
-                Form form3 = new Form3(ausgewählteSitzung);
-                form3.Show();
-            }
-        }
-
-        private void listBox5_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (listBox5.SelectedItem != null)
-            {
-                string ausgewählteSitzung = listBox5.SelectedItem.ToString();
-                Form form3 = new Form3(ausgewählteSitzung);
-                form3.Show();
-            }
-        }
-
-        private void listBox6_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (listBox6.SelectedItem != null)
-            {
-                string ausgewählteSitzung = listBox6.SelectedItem.ToString();
-                Form form3 = new Form3(ausgewählteSitzung);
-                form3.Show();
-            }
-        }
-
-        private void listBox7_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (listBox7.SelectedItem != null)
-            {
-                string ausgewählteSitzung = listBox7.SelectedItem.ToString();
+                string ausgewählteSitzung = listBox.SelectedItem.ToString();
                 Form form3 = new Form3(ausgewählteSitzung);
                 form3.Show();
             }

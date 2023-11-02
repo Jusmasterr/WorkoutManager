@@ -13,6 +13,8 @@ namespace WorkoutManager
 {
     public partial class Form2 : Form
     {
+        private List<string> savedSessions = new List<string>();
+
         public Form2()
         {
             InitializeComponent();
@@ -172,7 +174,6 @@ namespace WorkoutManager
 
         List<UserControl2> userControlList = new List<UserControl2>();
 
-        private List<string> savedSessions = new List<string>();
 
         public List<string> GetSavedSessions()
         {
@@ -183,15 +184,22 @@ namespace WorkoutManager
         {
             savedSessions.Add(sessionInformation);
         }
+
         private void button9_Click(object sender, EventArgs e) // adddataBTN1
         {
             UserControl2 userControl2 = new UserControl2();
             this.Controls.Add(userControl2);
             userControl2.BringToFront();
 
-            userControlList.Add(userControl2);
+            // Simulieren Sie hier die Erfassung von Sitzungsinformationen
             string sessionInformation = "Session data for adddataBTN1";
             SaveSession(sessionInformation);
+
+            // Aktualisieren Sie die Listboxen in Form4
+            if (Application.OpenForms["Form4"] is Form4 form4)
+            {
+                form4.UpdateListBox();
+            }
         }
 
         private void button2_Click_2(object sender, EventArgs e) // adddataBTN2
