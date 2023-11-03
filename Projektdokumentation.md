@@ -45,7 +45,7 @@ Wir haben uns dazu entschieden, die Abänderung von schon bereits erstellten Wor
 | 2.1 | Applikation ist gestartet | Klicken auf "Create Schedule" | Wochentage werden angezeigt |
 | 3.1 | Applikation ist gestartet | Klicken auf "Create Schedule" | Auswahl von Restday und Workout |
 | 4.1 | Workout wurde ausgewählt | Klicken auf "add Data" | Pop-up öffnet sich |
-| 5.1 | Pop-up ist geöffnet | Klicken auf "Maschinen" | Dropdown mnu mit allen verfügbaren Maschinen wird angezeigt. |
+| 5.1 | Pop-up ist geöffnet | Klicken auf "Maschinen" | Dropdown menu mit allen verfügbaren Maschinen wird angezeigt. |
 | 6.1 | Pop-up ist geöffnet | Klicken auf Textfeld "Weight"  | Eingegebene Daten werden gespeichert |
 | 7.1 | Pop-up ist geöffnet | Klicken auf Textfeld "Repetitions"  | Eingegebene Daten werden gespeichert |
 | 8.1 | Applikation ist gestartet | Klicken auf "Show Schedule" | Auswahl der gespeicherten Workouts |
@@ -55,7 +55,16 @@ Wir haben uns dazu entschieden, die Abänderung von schon bereits erstellten Wor
 ### Testprotokoll
 | Test-№ | TC-№ | Resultat | Datum | Tester |
 |---|---|---|---|---|
-| 1 | 1.1 | OK | 03.11.2023 | Sacher |
+| 1 | 1.1 | OK ✅ | 03.11.2023 | Sacher |
+| 2 | 2.1 | OK ✅ | 03.11.2023 | Sacher |
+| 3 | 3.1 | OK ✅ | 03.11.2023 | Sacher |
+| 4 | 4.1 | OK ✅ | 03.11.2023 | Sacher |
+| 5 | 5.1 | OK ✅ | 03.11.2023 | Sacher |
+| 6 | 6.1 | OK ✅ | 03.11.2023 | Sacher |
+| 7 | 7.1 | OK ✅ | 03.11.2023 | Sacher |
+| 8 | 8.1 | NOK ❌ | 03.11.2023 | Sacher |
+| 9 | 9.1 | NOK ❌ | 03.11.2023 | Sacher |
+| 10 | 10.1 | NOK ❌ | 03.11.2023 | Sacher |
 
 
 ## Auswertung
