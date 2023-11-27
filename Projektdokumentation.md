@@ -16,6 +16,7 @@
 |  5   | Muss                | Funktional     | Als ein User möchte ich, dass ich Sessions löschen kann, damit ich den Überblick nicht verliere. |
 |  6   | Muss                | Funktional     | Als ein User möchte ich, dass Fehleingaben abgefangen werden, damit ich das Programm nicht neu starten muss, wenn es abstürzt. |
 |  7   | Muss             | Randbedingung  | Als ein User möchte ich, dass die Applikation in Windows Forms entwickelt ist, damit das GUI übersichtlich ist.  |
+| 8 |   Muss         |    Funktional            | Als User möchte ich die Sessions speichern können, damit ich sie ansehen kann. |
 
 
 ## Planen
