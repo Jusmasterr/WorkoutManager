@@ -79,7 +79,7 @@ In diesem Projekt lief nicht alles nach Plan. Zu Beginn hatten wir Schwierigkeit
 Die Teile des Programs, die wir realisieren konnten, sind unserer Meinung nach gut gelungen. Allerdings mussten wir feststellen, dass in diesem Projekt nicht besonders viele positive Entwicklungen stattgefunden haben.
 
 ## Portfolioeintrag
-Sacher Robin: https://portfolio.bbbaden.ch/view/view.php?t=1e1ffd3ef7a07d5e1361
-Damian Müller:
-Julian Hitz:
-Justus Meister: 
+- Sacher Robin: https://portfolio.bbbaden.ch/view/view.php?t=1e1ffd3ef7a07d5e1361
+- Damian Müller:
+- Julian Hitz:
+- Justus Meister: 
