@@ -67,7 +67,19 @@ Wir haben uns dazu entschieden, die Abänderung von schon bereits erstellten Wor
 | 9 | 9.1 | NOK ❌ | 03.11.2023 | Sacher |
 | 10 | 10.1 | NOK ❌ | 03.11.2023 | Sacher |
 
+### Testbericht
+Das programm ist noch nicht voll funktionsfähig. Die erstellung eines neuen Workoutplans funktioniert, jedoch muss die Auswahl des Workouts und die Anzeige der genauen Daten noch implementiert werden, damit das Programm richtig funktioniert.
 
 ## Auswertung
 
-## Porfolioeintrag
+### Was lief nicht gut?
+In diesem Projekt lief nicht alles nach Plan. Zu Beginn hatten wir Schwierigkeiten, das Projekt effektiv zu erstellen und zu teilen, um eine reibungslose Zusammenarbeit zu ermöglichen. Nach der Lösung dieses Problems gerieten wir etwas hinter den Zeitplan. Die Stimmung und Motivation im Team waren zudem nicht besonders hoch, da wir zuvor weniger positive Erfahrungen mit Windows Forms gemacht hatten. Das führte dazu, dass wir an gewissen Tagen nicht sehr produktiv waren. Diese eher kleinen Probleme summierten sich schlussendlich und führten dazu, dass wir das Projekt nicht vollständig abschließen konnten.
+
+### Was lief gut?
+Die Teile des Programs, die wir realisieren konnten, sind unserer Meinung nach gut gelungen. Allerdings mussten wir feststellen, dass in diesem Projekt nicht besonders viele positive Entwicklungen stattgefunden haben.
+
+## Portfolioeintrag
+Sacher Robin: https://portfolio.bbbaden.ch/view/view.php?t=1e1ffd3ef7a07d5e1361
+Damian Müller:
+Julian Hitz:
+Justus Meister: 
