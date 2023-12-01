@@ -16,10 +16,14 @@
 |  5   | Muss                | Funktional     | Als ein User möchte ich, dass ich Sessions löschen kann, damit ich den Überblick nicht verliere. |
 |  6   | Muss                | Funktional     | Als ein User möchte ich, dass Fehleingaben abgefangen werden, damit ich das Programm nicht neu starten muss, wenn es abstürzt. |
 |  7   | Muss             | Randbedingung  | Als ein User möchte ich, dass die Applikation in Windows Forms entwickelt ist, damit das GUI übersichtlich ist.  |
-| 8 |   Muss         |    Funktional            | Als User möchte ich die Sessions speichern können, damit ich sie ansehen kann. |
-| 9 |    Kann    |    Funktional   | Als ein User möchte ich, dass ich Übungen zu meinen Sessions hinzufügen oder entfernen kann, damit ich meine Workouts flexibel gestalten kann.|
+| 8    |   Muss         |    Funktional            | Als User möchte ich die Sessions speichern können, damit ich sie ansehen kann. |
+| 9 |   Kann    |    Funktional   | Als ein User möchte ich, dass ich Übungen zu meinen Sessions hinzufügen oder entfernen kann, damit ich meine Workouts flexibel gestalten kann.|
 | 10 | Muss    |           |  Als user möchte ich die Sessions auf verschiedenen Geräten erstellen, damit ich flexibler bin. |
 | 11 | Muss |          | Als ein User möchte ich, dass ich die Dauer jeder Trainingseinheit festlegen kann, damit ich meine Zeit effizient planen kann.|
+| 12 | Muss   | Randbedingung | Als ein User möchte ich, dass die Anwendung benutzerfreundlich gestaltet ist, damit es einfach zu bedienen ist.|
+| 13 | Muss | Qualität | Als user möchte ich, dass das Fehler abgefangen werden, damit die Applikation nicht immer abstürzt. |
+
+
 
 
 
