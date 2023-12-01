@@ -8,20 +8,25 @@
 
 ### 1.2 User-Stories
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
-| ---- | --------------- | ---- | ---------------------------------- |
-|  1   | Muss                | Funktional     | Als ein User möchte ich, dass ich ein Workoutplan erstellen und dabei das Gerät, die Anzahl Trainingseinheiten pro Woche, das Gewicht und die Wiederholungen eingeben kann, damit ich ich mein Training planen kann. |
-|  2   | Muss                | Funktional     | Als ein User möchte ich, dass die Geräte Benchpress, Shoulderpress, Legpress, Legextension, Lat-pulldown und Bicep curls vorhanden sind, damit ich eine gute Auswahl an Geräten habe. |
-|  3   | Muss                | Funktional     | Als ein User möchte ich, dass ich die Session ansehen kann, damit ich meine Trainings planen kann. |
-|  4   | Kann                | Funktional     | Als ein User möchte ich, dass ich Sessions abändern kann, damit ich nicht jedes mal wenn ich Daten ändern möchte eine neue Session erstellen muss. |
-|  5   | Muss                | Funktional     | Als ein User möchte ich, dass ich Sessions löschen kann, damit ich den Überblick nicht verliere. |
-|  6   | Muss                | Funktional     | Als ein User möchte ich, dass Fehleingaben abgefangen werden, damit ich das Programm nicht neu starten muss, wenn es abstürzt. |
-|  7   | Muss             | Randbedingung  | Als ein User möchte ich, dass die Applikation in Windows Forms entwickelt ist, damit das GUI übersichtlich ist.  |
-| 8    |   Muss         |    Funktional            | Als User möchte ich die Sessions speichern können, damit ich sie ansehen kann. |
-| 9 |   Kann    |    Funktional   | Als ein User möchte ich, dass ich Übungen zu meinen Sessions hinzufügen oder entfernen kann, damit ich meine Workouts flexibel gestalten kann.|
-| 10 | Muss    |           |  Als user möchte ich die Sessions auf verschiedenen Geräten erstellen, damit ich flexibler bin. |
-| 11 | Muss |          | Als ein User möchte ich, dass ich die Dauer jeder Trainingseinheit festlegen kann, damit ich meine Zeit effizient planen kann.|
-| 12 | Muss   | Randbedingung | Als ein User möchte ich, dass die Anwendung benutzerfreundlich gestaltet ist, damit es einfach zu bedienen ist.|
-| 13 | Muss | Qualität | Als user möchte ich, dass das Fehler abgefangen werden, damit die Applikation nicht immer abstürzt. |
+| ---- | --------------- | ---- | ---------------------------------- | 
+|  1   | Muss                | Funktional     | Als ein User möchte ich, dass die Geräte Benchpress, Shoulderpress, Legpress, Legextension, Lat-pulldown und Bicep curls vorhanden sind, damit ich eine gute Auswahl an Geräten habe. |
+|  2  | Muss                | Funktional     | Als ein User möchte ich, dass ich die Session ansehen kann, damit ich meine Trainings planen kann. |
+|  3   | Kann                | Funktional     | Als ein User möchte ich, dass ich Sessions abändern kann, damit ich nicht jedes mal wenn ich Daten ändern möchte eine neue Session erstellen muss. |
+|  4  | Muss                | Funktional     | Als ein User möchte ich, dass ich Sessions löschen kann, damit ich den Überblick nicht verliere. |
+|  5  | Muss                | Funktional     | Als ein User möchte ich, dass Fehleingaben abgefangen werden, damit ich das Programm nicht neu starten muss, wenn es abstürzt. |
+|  6  | Muss             | Randbedingung  | Als ein User möchte ich, dass die Applikation in Windows Forms entwickelt ist, damit das GUI übersichtlich ist.  |
+| 7   |   Muss         |    Funktional            | Als User möchte ich die Sessions speichern können, damit ich sie ansehen kann. |
+| 8 |   Kann    |    Funktional   | Als ein User möchte ich, dass ich Übungen zu meinen Sessions hinzufügen oder entfernen kann, damit ich meine Workouts flexibel gestalten kann.|
+| 9 | Muss    |  Funktional         |  Als user möchte ich die Sessions auf verschiedenen Geräten erstellen, damit ich flexibler bin. |
+| 10 | Kann | Funktional         | Als ein User möchte ich, dass ich die Dauer jeder Trainingseinheit festlegen kann, damit ich meine Zeit effizient planen kann.|
+| 11 | Muss   | Randbedingung | Als ein User möchte ich, dass die Anwendung benutzerfreundlich gestaltet ist, damit es einfach zu bedienen ist.|
+| 12 | Muss | Qualität | Als user möchte ich, dass das Fehler abgefangen werden, damit die Applikation nicht immer abstürzt. |
+| 13 | Muss | Funktional | Als user möchte ich einen Workoutplan erstellen, damit ich einen Plan habe was ich trainieren muss. |
+| 14 | Muss | Funktional | Als user möchte ich für jeden Tag einen einzelnen Trainingsplan erstellen, damit ich was was ich an welchem Tag trainieren soll. |
+| 15 | Muss | Funktional | Als user möchte ich, dass ich ein Gerät auswählen kann, damit ich eine spezifische Trainingseinheit machen kann. |
+| 16 | Muss | Funktional | Als user möchte ich die Wiederholungen für jede Übung festlegen können, damit ich meine Ziele erreichen kann. |
+| 17 | Muss ¢ Funktional | Als User möchte ich das Gewicht für die Geräte angeben können, damit ich weiss mit wieviel Gewicht ich trainieren muss. |
+
 
 
 
@@ -40,6 +45,7 @@
 | 8.A | 03.11.2023  | Hitz   | Fehleingaben abfangen | 60 Min |
 | 9.A | 03.11.2023  | Müller | Anzeigen von gespeicherten Workouts | 100 Min |
 | 10.A| 03.11.2023  | Müller | Löschen von gespeicherten Workouts | 30 Min |
+| 
 
 
 
