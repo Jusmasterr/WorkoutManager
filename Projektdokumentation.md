@@ -45,7 +45,7 @@
 | 8.A | 03.11.2023  | Hitz   | Fehleingaben abfangen | 60 Min |
 | 9.A | 03.11.2023  | Müller | Anzeigen von gespeicherten Workouts | 100 Min |
 | 10.A| 03.11.2023  | Müller | Löschen von gespeicherten Workouts | 30 Min |
-| 
+
 
 
 
