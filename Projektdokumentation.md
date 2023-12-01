@@ -25,7 +25,7 @@
 | 14 | Muss | Funktional | Als user möchte ich für jeden Tag einen einzelnen Trainingsplan erstellen, damit ich was was ich an welchem Tag trainieren soll. |
 | 15 | Muss | Funktional | Als user möchte ich, dass ich ein Gerät auswählen kann, damit ich eine spezifische Trainingseinheit machen kann. |
 | 16 | Muss | Funktional | Als user möchte ich die Wiederholungen für jede Übung festlegen können, damit ich meine Ziele erreichen kann. |
-| 17 | Muss ¢ Funktional | Als User möchte ich das Gewicht für die Geräte angeben können, damit ich weiss mit wieviel Gewicht ich trainieren muss. |
+| 17 | Muss | Funktional | Als User möchte ich das Gewicht für die Geräte angeben können, damit ich weiss mit wieviel Gewicht ich trainieren muss. |
 
 
 
