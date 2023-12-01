@@ -17,6 +17,10 @@
 |  6   | Muss                | Funktional     | Als ein User möchte ich, dass Fehleingaben abgefangen werden, damit ich das Programm nicht neu starten muss, wenn es abstürzt. |
 |  7   | Muss             | Randbedingung  | Als ein User möchte ich, dass die Applikation in Windows Forms entwickelt ist, damit das GUI übersichtlich ist.  |
 | 8 |   Muss         |    Funktional            | Als User möchte ich die Sessions speichern können, damit ich sie ansehen kann. |
+| 9 |    Kann    |    Funktional   | Als ein User möchte ich, dass ich Übungen zu meinen Sessions hinzufügen oder entfernen kann, damit ich meine Workouts flexibel gestalten kann.|
+| 10 | Muss    |           |  Als user möchte ich die Sessions auf verschiedenen Geräten erstellen, damit ich flexibler bin. |
+| 11 | Muss |          | Als ein User möchte ich, dass ich die Dauer jeder Trainingseinheit festlegen kann, damit ich meine Zeit effizient planen kann.|
+
 
 
 ## Planen
@@ -32,6 +36,7 @@
 | 8.A | 03.11.2023  | Hitz   | Fehleingaben abfangen | 60 Min |
 | 9.A | 03.11.2023  | Müller | Anzeigen von gespeicherten Workouts | 100 Min |
 | 10.A| 03.11.2023  | Müller | Löschen von gespeicherten Workouts | 30 Min |
+
 
 
 ## Entscheiden
