@@ -13,6 +13,8 @@ namespace WorkoutManager
 {
     public partial class Form2 : Form
     {
+        private List<string> savedSessions = new List<string>();
+
         public Form2()
         {
             InitializeComponent();
@@ -170,14 +172,34 @@ namespace WorkoutManager
 
         }
 
-        List<UserControl2> userControlList = new List<UserControl2>(); // gespeicherte Daten
+        List<UserControl2> userControlList = new List<UserControl2>();
+
+
+        public List<string> GetSavedSessions()
+        {
+            return savedSessions;
+        }
+
+        private void SaveSession(string sessionInformation)
+        {
+            savedSessions.Add(sessionInformation);
+        }
+
         private void button9_Click(object sender, EventArgs e) // adddataBTN1
         {
             UserControl2 userControl2 = new UserControl2();
             this.Controls.Add(userControl2);
             userControl2.BringToFront();
 
-            userControlList.Add(userControl2);
+            // Simulieren Sie hier die Erfassung von Sitzungsinformationen
+            string sessionInformation = "Session data for adddataBTN1";
+            SaveSession(sessionInformation);
+
+            // Aktualisieren Sie die Listboxen in Form4
+            if (Application.OpenForms["Form4"] is Form4 form4)
+            {
+                form4.UpdateListBox();
+            }
         }
 
         private void button2_Click_2(object sender, EventArgs e) // adddataBTN2
@@ -187,6 +209,8 @@ namespace WorkoutManager
             userControl3.BringToFront();
 
             userControlList.Add(userControl3);
+            string sessionInformation = "Session data for adddataBTN3";
+            SaveSession(sessionInformation);
         }
 
         private void adddataBTN3_Click(object sender, EventArgs e)
@@ -196,6 +220,8 @@ namespace WorkoutManager
             userControl4.BringToFront();
 
             userControlList.Add(userControl4);
+            string sessionInformation = "Session data for adddataBTN3";
+            SaveSession(sessionInformation);
         }
 
         private void adddataBTN4_Click(object sender, EventArgs e)
@@ -205,6 +231,8 @@ namespace WorkoutManager
             userControl5.BringToFront();
 
             userControlList.Add(userControl5);
+            string sessionInformation = "Session data for adddataBTN4";
+            SaveSession(sessionInformation);
         }
 
         private void adddataBTN5_Click(object sender, EventArgs e)
@@ -214,6 +242,8 @@ namespace WorkoutManager
             userControl6.BringToFront();
 
             userControlList.Add(userControl6);
+            string sessionInformation = "Session data for adddataBTN5";
+            SaveSession(sessionInformation);
         }
 
         private void adddataBTN6_Click(object sender, EventArgs e)
@@ -223,6 +253,8 @@ namespace WorkoutManager
             userControl7.BringToFront();
 
             userControlList.Add(userControl7);
+            string sessionInformation = "Session data for adddataBTN6";
+            SaveSession(sessionInformation);
         }
 
         private void adddataBTN7_Click(object sender, EventArgs e)
@@ -232,6 +264,8 @@ namespace WorkoutManager
             userControl8.BringToFront();
 
             userControlList.Add(userControl8);
+            string sessionInformation = "Session data for adddataBTN7";
+            SaveSession(sessionInformation);
         }
 
         private void timer1_Tick(object sender, EventArgs e)

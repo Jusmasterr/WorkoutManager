@@ -55,7 +55,7 @@
             BackgroundBox.BackColor = Color.FromArgb(206, 123, 145);
             BackgroundBox.BorderStyle = BorderStyle.FixedSingle;
             BackgroundBox.Location = new Point(26, 19);
-            BackgroundBox.Margin = new Padding(8, 8, 8, 8);
+            BackgroundBox.Margin = new Padding(8);
             BackgroundBox.Name = "BackgroundBox";
             BackgroundBox.Size = new Size(916, 98);
             BackgroundBox.TabIndex = 7;
@@ -68,7 +68,7 @@
             BackMenuBTN.Font = new Font("Arial Rounded MT Bold", 10F, FontStyle.Regular, GraphicsUnit.Point);
             BackMenuBTN.ForeColor = Color.FromArgb(223, 169, 183);
             BackMenuBTN.Location = new Point(46, 169);
-            BackMenuBTN.Margin = new Padding(8, 8, 8, 8);
+            BackMenuBTN.Margin = new Padding(8);
             BackMenuBTN.Name = "BackMenuBTN";
             BackMenuBTN.Size = new Size(332, 63);
             BackMenuBTN.TabIndex = 40;
@@ -83,7 +83,7 @@
             ViewSchedBTN.Font = new Font("Arial Rounded MT Bold", 10F, FontStyle.Regular, GraphicsUnit.Point);
             ViewSchedBTN.ForeColor = Color.FromArgb(223, 169, 183);
             ViewSchedBTN.Location = new Point(578, 169);
-            ViewSchedBTN.Margin = new Padding(8, 8, 8, 8);
+            ViewSchedBTN.Margin = new Padding(8);
             ViewSchedBTN.Name = "ViewSchedBTN";
             ViewSchedBTN.Size = new Size(332, 63);
             ViewSchedBTN.TabIndex = 41;
@@ -96,11 +96,12 @@
             pictureBox1.BackColor = Color.FromArgb(99, 82, 85);
             pictureBox1.BorderStyle = BorderStyle.FixedSingle;
             pictureBox1.Location = new Point(12, 8);
-            pictureBox1.Margin = new Padding(8, 8, 8, 8);
+            pictureBox1.Margin = new Padding(8);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(948, 271);
             pictureBox1.TabIndex = 42;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // ScheduleCreatedPopUp
             // 
@@ -112,7 +113,7 @@
             Controls.Add(label1);
             Controls.Add(BackgroundBox);
             Controls.Add(pictureBox1);
-            Margin = new Padding(6, 6, 6, 6);
+            Margin = new Padding(6);
             Name = "ScheduleCreatedPopUp";
             Size = new Size(970, 288);
             ((System.ComponentModel.ISupportInitialize)BackgroundBox).EndInit();
