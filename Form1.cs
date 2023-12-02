@@ -6,7 +6,7 @@ namespace WorkoutManager
         {
             InitializeComponent();
         }
-
+        
         private void StartLabel_Click(object sender, EventArgs e)
         {
 
