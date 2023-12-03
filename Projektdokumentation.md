@@ -80,15 +80,16 @@ Wir habem uns dazu entschieden die Behandlung von Fehleingaben wegzulassen, da e
 | Test-№ | TC-№ | Resultat | Datum      | Tester |
 | ------ | ---- | -------- | ---------- | ------ |
 | 1      | 1.1  | OK ✅    | 03.11.2023 | Sacher |
-| 2      | 2.1  | OK ✅    | 03.11.2023 | Sacher |
-| 3      | 3.1  | OK ✅    | 03.11.2023 | Sacher |
-| 4      | 4.1  | OK ✅    | 03.11.2023 | Sacher |
-| 5      | 5.1  | OK ✅    | 03.11.2023 | Sacher |
-| 6      | 6.1  | OK ✅    | 03.11.2023 | Sacher |
-| 7      | 7.1  | OK ✅    | 03.11.2023 | Sacher |
-| 8      | 8.1  | NOK ❌   | 03.11.2023 | Sacher |
-| 9      | 9.1  | NOK ❌   | 03.11.2023 | Sacher |
-| 10     | 10.1 | NOK ❌   | 03.11.2023 | Sacher |
+| 2      | 1.2  | OK ✅    | 03.11.2023 | Sacher |
+| 3      | 2.3  | NOK ❌     | 03.11.2023 | Sacher |
+| 4      | 6.4  | OK ✅    | 03.11.2023 | Sacher |
+| 5      | 7.5  | NOK ❌    | 03.11.2023 | Sacher |
+| 6      | 9.6  | NOK ❌    | 03.11.2023 | Sacher |
+| 7      | 10.7  | OK ✅    | 03.11.2023 | Sacher |
+| 8      | 11.8 | OK ✅    | 03.11.2023 | Sacher |
+| 9      | 12.9  | OK ✅    | 03.11.2023 | Müller |
+| 10     | 13.10 | OK ✅   | 03.11.2023 | Müller |
+| 11    |  14.11 | OK ✅    | 03.11.2023 | Müller |
 
 ### Testbericht
 
