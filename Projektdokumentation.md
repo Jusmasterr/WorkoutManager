@@ -33,20 +33,29 @@
 
 
 ## Planen
-| AP-№ | Frist | Zuständig | Beschreibung                                                               | geplante Zeit |
-|------|-------|-----------|----------------------------------------------------------------------------|---------------|
-| 1.A | 03.11.2023  | Meister | GUI entwerfen | 180 Min|
-| 2.A | 03.11.2023  | Sacher  | Funktion von allen Buttons richitg implementieren | 50 Min |
-| 3.A | 03.11.2023  | Sacher | Auswahl zwischen Restday und Workout  | 10 Min |
-| 4.A | 03.11.2023  | Sacher | Auswahl eines Gerätes an Workout tag | 15 Min|
-| 5.A | 03.11.2023  | Sacher | Eingabe des Gewichts | 30 Min |
-| 6.A | 03.11.2023  | Sacher | Eingabe der Wiederholungen | 30 Min |
-| 7.A | 03.11.2023  | Hitz   | Speichern aller Workoutinformationen| 100 Min |
-| 8.A | 03.11.2023  | Hitz   | Fehleingaben abfangen | 60 Min |
-| 9.A | 03.11.2023  | Müller | Anzeigen von gespeicherten Workouts | 100 Min |
-| 10.A| 03.11.2023  | Müller | Löschen von gespeicherten Workouts | 30 Min |
-| 11.A| 03.11.2023 | Meister | Bearbeiten von gespeicherten Workouts. | 50 min|
-| 12.A | 03.11.2023 | Meiste  | Session auf verschiedenen Geräten erstellen| 30min|   
+| AP-№ | Frist       | Zuständig  | Beschreibung                                          | Geplante Zeit |
+| ---- | ----------- | ---------- | ----------------------------------------------------- | ------------- |
+| 1.A  | 2023-12-10  | Entwickler1 | Recherche und Auswahl von Geräten für das Training   | 8 Stunden      |
+| 1.B  | 2023-12-15  | Entwickler1 | Implementierung der ausgewählten Geräte in die Applikation | 16 Stunden    |
+| 2.A  | 2023-12-18  | Entwickler2 | Implementierung der Funktion zum Anzeigen von Sessions | 12 Stunden    |
+| 3.A  | 2023-12-20  | Entwickler2 | Implementierung der Funktion zum Bearbeiten von Sessions | 20 Stunden   |
+| 4.A  | 2023-12-22  | Entwickler2 | Implementierung der Funktion zum Löschen von Sessions  | 10 Stunden    |
+| 5.A  | 2023-12-25  | Entwickler3 | Implementierung der Fehlerbehandlung für Fehleingaben  | 14 Stunden    |
+| 6.A  | 2023-12-28  | Entwickler3 | Entwicklung der GUI in Windows Forms                  | 18 Stunden    |
+| 7.A  | 2023-12-30  | Entwickler4 | Implementierung der Funktion zum Speichern von Sessions | 14 Stunden   |
+| 8.A  | 2024-01-05  | Entwickler4 | Implementierung der Funktion zum Hinzufügen oder Entfernen von Übungen | 16 Stunden |
+| 9.A  | 2024-01-10  | Entwickler5 | Implementierung der Funktion zum Erstellen von Sessions auf verschiedenen Geräten | 22 Stunden |
+| 10.A | 2024-01-15  | Entwickler5 | Implementierung der Funktion zum Festlegen der Dauer jeder Trainingseinheit | 12 Stunden |
+| 11.A | 2024-01-18  | UX-Designer | Gestaltung der Benutzeroberfläche für Benutzerfreundlichkeit | 24 Stunden |
+| 12.A | 2024-01-20  | Entwickler6 | Implementierung der Fehlerbehandlung für die Stabilität der Anwendung | 16 Stunden |
+| 13.A | 2024-01-25  | Entwickler6 | Implementierung der Funktion zum Erstellen eines Workoutplans | 18 Stunden |
+| 14.A | 2024-01-30  | Entwickler7 | Implementierung der Funktion zum Erstellen von täglichen Trainingsplänen | 20 Stunden |
+| 15.A | 2024-02-03  | Entwickler7 | Implementierung der Funktion zum Auswählen eines Geräts für das Training | 10 Stunden |
+| 16.A | 2024-02-08  | Entwickler8 | Implementierung der Funktion zum Festlegen von Wiederholungen für jede Übung | 14 Stunden |
+| 17.A | 2024-02-12  | Entwickler8 | Implementierung der Funktion zum Angeben des Gewichts für die Geräte | 12 Stunden |
+
+**Total: 308 Stunden**
+
 
 
 
