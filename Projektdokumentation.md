@@ -20,7 +20,7 @@
 | 5    | Muss            | Qualität      | Als ein User möchte ich, dass Fehleingaben abgefangen werden, damit ich das Programm nicht neu starten muss, wenn es abstürzt.                                                        |
 | 6    | Muss            | Randbedingung | Als ein User möchte ich, dass die Applikation in Windows Forms entwickelt ist, damit das GUI übersichtlich ist.                                                                       |
 | 7    | Muss            | Funktional    | Als User möchte ich die Sessions speichern können, damit ich sie ansehen kann.                                                                                                        |
-| 8    | Kann            | Funktional    | Als ein User möchte ich, dass ich Übungen zu meinen Sessions hinzufügen oder entfernen kann, damit ich meine Workouts flexibel gestalten kann.                                        |
+| 8    | Kann            | Funktional    | Als ein User möchte ich, dass ich Übungen zu meinen Sessions hinzufügen kann, damit ich meine Workouts flexibel gestalten kann.                                        |
 | 9    | Kann            | Funktional    | Als ein User möchte ich, dass ich die Dauer jeder Trainingseinheit festlegen kann, damit ich meine Zeit effizient planen kann.                                                        |
 | 10   | Muss            | Randbedingung | Als ein User möchte ich, dass die Anwendung benutzerfreundlich gestaltet ist, damit es einfach zu bedienen ist.                                                                       |
 | 11   | Muss            | Funktional    | Als user möchte ich für jeden Tag einen einzelnen Trainingsplan erstellen, damit ich was was ich an welchem Tag trainieren soll.                                                      |
@@ -32,7 +32,7 @@
 
 | AP-№ | Frist      | Zuständig | Beschreibung                                                                 | Geplante Zeit |
 | ---- | ---------- | --------- | ---------------------------------------------------------------------------- | ------------- |
-| 1.A  | 03.11.2023 | Sacher    | Recherche und Auswahl von Geräten für das Training                           | 10 Min        |
+| 1.A  | 03.11.2023 | Sacher    |  Auswahl von Geräten für das Training                                        | 10 Min        |
 | 1.B  | 03.11.2023 | Sacher    | Implementierung der ausgewählten Geräte den Workoutmanager                   | 20 Min        |
 | 2.A  | 03.11.2023 | Müller    | Implementierung der Funktion zum Anzeigen von Sessions                       | 100 Min       |
 | 3.A  | 03.11.2023 | Hitz      | Implementierung der Funktion zum Bearbeiten von Sessions                     | 100 Min       |
@@ -52,7 +52,7 @@
 
 ## Entscheiden
 
-Wir habem uns dazu entschieden die Behandlung von Fehleingaben wegzulassen, da es nur eine Qualitätsanfoderung ist. und dass man gespeicherte Workouts nicht bearbeiten und löschen kann, da dies eine Funmktion ist, welche nicht unbeding nötig ist.
+Wir habem uns dazu entschieden die Behandlung von Fehleingaben wegzulassen, da es nur eine Qualitätsanfoderung ist und dass man gespeicherte Workouts nicht bearbeiten und löschen kann, da dies eine Funktion ist, welche nicht unbeding nötig ist.
 
 ## Realisieren
 
@@ -62,16 +62,18 @@ Wir habem uns dazu entschieden die Behandlung von Fehleingaben wegzulassen, da e
 
 | TC-№ | Ausgangslage                       | Eingabe                            | Erwartete Ausgabe                                             |
 | ---- | ---------------------------------- | ---------------------------------- | ------------------------------------------------------------- |
-| 1.1  | Applikation ist gestartet          | Klicken auf "Create Schedule"      | neue Vorlage öffnet sich                                      |
-| 2.1  | Applikation ist gestartet          | Klicken auf "Create Schedule"      | Wochentage werden angezeigt                                   |
-| 3.1  | Applikation ist gestartet          | Klicken auf "Create Schedule"      | Auswahl von Restday und Workout                               |
-| 4.1  | Workout wurde ausgewählt           | Klicken auf "add Data"             | Pop-up öffnet sich                                            |
-| 5.1  | Pop-up ist geöffnet                | Klicken auf "Maschinen"            | Dropdown menu mit allen verfügbaren Maschinen wird angezeigt. |
-| 6.1  | Pop-up ist geöffnet                | Klicken auf Textfeld "Weight"      | Eingegebene Daten werden gespeichert                          |
-| 7.1  | Pop-up ist geöffnet                | Klicken auf Textfeld "Repetitions" | Eingegebene Daten werden gespeichert                          |
-| 8.1  | Applikation ist gestartet          | Klicken auf "Show Schedule"        | Auswahl der gespeicherten Workouts                            |
-| 9.1  | Auswahl der gespeicherten Workouts | Klicken auf ein beliebiges Workout | Ausgabe aller gespeicherten Daten                             |
-| 10.1 | Applikation ist gestartet          | Fehleingabe                        | "Falsche Eingabe, bitte erneut versuchen"                     |
+| 1.1  | Applikation ist gestartet          | Klicken auf "Add Data"             | neue Vorlage öffnet sich                                      |
+| 1.2  | Applikation ist gestartet          | Klicken auf Drop Down Menu         | Geräte werden angezeigt                                 |
+| 2.3  | Session erstellt                   | Klicken auf "Submit"               | Session wird angezeigt                               |
+| 6.4  | Applikation starten                |                                    | Applikation wird auf Windows Forms gestartet                  |
+| 7.5  | Session erstellt                   | Klicken auf "Submit"               |Session wird gespeichert |
+| 9.6  | Add Data anklicken                   | Dauer der Einheit                | Eingegebene Daten werden gespeichert                          |
+| 10.7 | Applikation ist gestartet          |                                    | Benutzerfreundliche Oberfläche                        |
+| 11.8 | Applikation ist gestartet          | Klicken auf "create Schedule"      |  erstellbare Sessions                           |
+| 12.9  | Add Data anklicken                  | Gerät anklicken                   |  Gerät wird angezeigt                             |
+| 13.10 | Add Data anklicken                | Anzahl Wiederholungen                     | Anzahl Wiederholungen werden angezeigt            |
+| 14.11 | Add Data anklicken                 | Menge des Gewichts                  | Gewicht wird angezeigt|
+
 
 ### Testprotokoll
 
