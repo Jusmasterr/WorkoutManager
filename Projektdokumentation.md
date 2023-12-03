@@ -45,7 +45,8 @@
 | 8.A | 03.11.2023  | Hitz   | Fehleingaben abfangen | 60 Min |
 | 9.A | 03.11.2023  | Müller | Anzeigen von gespeicherten Workouts | 100 Min |
 | 10.A| 03.11.2023  | Müller | Löschen von gespeicherten Workouts | 30 Min |
-|      | 03.11.2023 | Meister | Bearbeiten von gespeicherten Workouts. | 50 min|
+| 11.A| 03.11.2023 | Meister | Bearbeiten von gespeicherten Workouts. | 50 min|
+| 12.A | 03.11.2023 | Meiste  | Session auf verschiedenen Geräten erstellen| 30min|   
 
 
 
