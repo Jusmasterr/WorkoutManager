@@ -55,7 +55,7 @@
 Wir habem uns dazu entschieden die Behandlung von Fehleingaben wegzulassen, da es nur eine Qualitätsanfoderung ist und dass man gespeicherte Workouts nicht bearbeiten und löschen kann, da dies eine Funktion ist, welche nicht unbeding nötig ist.
 
 ## Realisieren
-
+Hier zum Workoutmanager: https://github.com/Jusmasterr/WorkoutManager
 ## Kontrolle
 
 ### Testfälle
