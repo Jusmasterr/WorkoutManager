@@ -103,7 +103,7 @@ In diesem Projekt lief nicht alles nach Plan. Zu Beginn hatten wir Schwierigkeit
 
 ### Was lief gut?
 
-Die Teile des Programs, die wir realisieren konnten, sind unserer Meinung nach gut gelungen. Allerdings mussten wir feststellen, dass in diesem Projekt nicht besonders viele positive Entwicklungen stattgefunden haben.
+Die Teile des Programs, die wir realisieren konnten, sind unserer Meinung nach gut gelungen. Allerdings mussten wir feststellen, dass in diesem Projekt nicht besonders viele positive Entwicklungen stattgefunden haben. Wir sehen dieses Projekt als eine positive Erfahrung, welche wir für zukünftige Projekte mitnehmen.
 
 ## Portfolioeintrag
 
