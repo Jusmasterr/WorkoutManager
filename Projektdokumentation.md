@@ -109,5 +109,5 @@ Die Teile des Programs, die wir realisieren konnten, sind unserer Meinung nach g
 
 - Sacher Robin: https://portfolio.bbbaden.ch/view/view.php?t=1e1ffd3ef7a07d5e1361
 - Damian Müller: https://portfolio.bbbaden.ch/view/view.php?t=76b6fd91404fa8a96d31
-- Julian Hitz:
+- Julian Hitz: https://portfolio.bbbaden.ch/view/view.php?t=61a8fbd51ca9ed3ea9d2
 - Justus Meister: https://portfolio.bbbaden.ch/view/view.php?t=a9291e200016af872ff8
