@@ -57,7 +57,7 @@
             BackgroundBox.Size = new Size(299, 57);
             BackgroundBox.TabIndex = 7;
             BackgroundBox.TabStop = false;
-            BackgroundBox.Click += BackgroundBox_Click;
+//            BackgroundBox.Click += BackgroundBox_Click;
             // 
             // pictureBox1
             // 
@@ -139,7 +139,7 @@
             Controls.Add(pictureBox1);
             Name = "UserControl2";
             Size = new Size(357, 482);
-            Load += UserControl2_Load;
+         //   Load += UserControl2_Load;
             ((System.ComponentModel.ISupportInitialize)BackgroundBox).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

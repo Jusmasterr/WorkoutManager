@@ -51,7 +51,7 @@
             StartLabel.Size = new Size(1028, 137);
             StartLabel.TabIndex = 0;
             StartLabel.Text = "Workout Manager";
-            StartLabel.Click += StartLabel_Click;
+            // StartLabel.Click += StartLabel_Click;
             // 
             // BackgroundBox
             // 
@@ -63,7 +63,7 @@
             BackgroundBox.Size = new Size(2010, 215);
             BackgroundBox.TabIndex = 1;
             BackgroundBox.TabStop = false;
-            BackgroundBox.Click += BackgroundBox_Click;
+//            BackgroundBox.Click += BackgroundBox_Click;
             // 
             // button1
             // 
@@ -90,7 +90,7 @@
             pictureBox1.Size = new Size(2010, 820);
             pictureBox1.TabIndex = 4;
             pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
+//            pictureBox1.Click += pictureBox1_Click;
             // 
             // button2
             // 
@@ -125,7 +125,7 @@
             Name = "Form1";
             RightToLeft = RightToLeft.Yes;
             Text = "Workout Manager";
-            Load += Form1_Load;
+           // Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)BackgroundBox).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

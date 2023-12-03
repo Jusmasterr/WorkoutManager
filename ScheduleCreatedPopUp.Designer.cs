@@ -48,7 +48,7 @@
             label1.Size = new Size(844, 50);
             label1.TabIndex = 0;
             label1.Text = "Your workout schedule has succesfully been created";
-            label1.Click += label1_Click;
+//            label1.Click += label1_Click;
             // 
             // BackgroundBox
             // 
@@ -101,7 +101,7 @@
             pictureBox1.Size = new Size(948, 271);
             pictureBox1.TabIndex = 42;
             pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
+           // pictureBox1.Click += pictureBox1_Click;
             // 
             // ScheduleCreatedPopUp
             // 

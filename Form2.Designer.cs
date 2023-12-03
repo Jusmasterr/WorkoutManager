@@ -113,7 +113,7 @@
             BackgroundBox.Size = new Size(2010, 215);
             BackgroundBox.TabIndex = 6;
             BackgroundBox.TabStop = false;
-            BackgroundBox.Click += BackgroundBox_Click;
+//            BackgroundBox.Click += BackgroundBox_Click;
             // 
             // pictureBox1
             // 
@@ -137,7 +137,7 @@
             comboBox2.Name = "comboBox2";
             comboBox2.Size = new Size(320, 56);
             comboBox2.TabIndex = 15;
-            comboBox2.SelectedIndexChanged += comboBox2_SelectedIndexChanged;
+//            comboBox2.SelectedIndexChanged += comboBox2_SelectedIndexChanged;
             // 
             // pictureBox2
             // 
@@ -158,7 +158,7 @@
             label1.Size = new Size(167, 48);
             label1.TabIndex = 17;
             label1.Text = "Session 2";
-            label1.Click += label1_Click;
+//            label1.Click += label1_Click;
             // 
             // button3
             // 
@@ -185,7 +185,7 @@
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(320, 56);
             comboBox1.TabIndex = 20;
-            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged_1;
+//            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged_1;
             // 
             // label2
             // 
@@ -196,7 +196,7 @@
             label2.Size = new Size(167, 48);
             label2.TabIndex = 22;
             label2.Text = "Session 3";
-            label2.Click += label2_Click;
+//            label2.Click += label2_Click;
             // 
             // pictureBox3
             // 
@@ -206,7 +206,7 @@
             pictureBox3.Size = new Size(1576, 98);
             pictureBox3.TabIndex = 21;
             pictureBox3.TabStop = false;
-            pictureBox3.Click += pictureBox3_Click;
+//            pictureBox3.Click += pictureBox3_Click;
             // 
             // comboBox3
             // 
@@ -218,7 +218,7 @@
             comboBox3.Name = "comboBox3";
             comboBox3.Size = new Size(320, 56);
             comboBox3.TabIndex = 24;
-            comboBox3.SelectedIndexChanged += comboBox3_SelectedIndexChanged;
+//            comboBox3.SelectedIndexChanged += comboBox3_SelectedIndexChanged;
             // 
             // label3
             // 
@@ -229,7 +229,7 @@
             label3.Size = new Size(167, 48);
             label3.TabIndex = 26;
             label3.Text = "Session 4";
-            label3.Click += label3_Click;
+           // label3.Click += label3_Click;
             // 
             // pictureBox4
             // 
@@ -239,7 +239,7 @@
             pictureBox4.Size = new Size(1576, 98);
             pictureBox4.TabIndex = 25;
             pictureBox4.TabStop = false;
-            pictureBox4.Click += pictureBox4_Click;
+         //   pictureBox4.Click += pictureBox4_Click;
             // 
             // comboBox4
             // 
@@ -251,7 +251,7 @@
             comboBox4.Name = "comboBox4";
             comboBox4.Size = new Size(320, 56);
             comboBox4.TabIndex = 28;
-            comboBox4.SelectedIndexChanged += comboBox4_SelectedIndexChanged;
+           // comboBox4.SelectedIndexChanged += comboBox4_SelectedIndexChanged;
             // 
             // label4
             // 
@@ -262,7 +262,7 @@
             label4.Size = new Size(167, 48);
             label4.TabIndex = 30;
             label4.Text = "Session 5";
-            label4.Click += label4_Click;
+         //   label4.Click += label4_Click;
             // 
             // pictureBox5
             // 
@@ -272,7 +272,7 @@
             pictureBox5.Size = new Size(1576, 98);
             pictureBox5.TabIndex = 29;
             pictureBox5.TabStop = false;
-            pictureBox5.Click += pictureBox5_Click;
+          //  pictureBox5.Click += pictureBox5_Click;
             // 
             // comboBox5
             // 
@@ -284,7 +284,7 @@
             comboBox5.Name = "comboBox5";
             comboBox5.Size = new Size(320, 56);
             comboBox5.TabIndex = 32;
-            comboBox5.SelectedIndexChanged += comboBox5_SelectedIndexChanged;
+        //    comboBox5.SelectedIndexChanged += comboBox5_SelectedIndexChanged;
             // 
             // label5
             // 
@@ -295,7 +295,7 @@
             label5.Size = new Size(182, 48);
             label5.TabIndex = 34;
             label5.Text = "Sesssion 6";
-            label5.Click += label5_Click;
+        //    label5.Click += label5_Click;
             // 
             // pictureBox6
             // 
@@ -350,7 +350,7 @@
             comboBox7.Name = "comboBox7";
             comboBox7.Size = new Size(320, 56);
             comboBox7.TabIndex = 40;
-            comboBox7.SelectedIndexChanged += comboBox7_SelectedIndexChanged;
+         //   comboBox7.SelectedIndexChanged += comboBox7_SelectedIndexChanged;
             // 
             // label7
             // 
@@ -361,7 +361,7 @@
             label7.Size = new Size(167, 48);
             label7.TabIndex = 42;
             label7.Text = "Session 1";
-            label7.Click += label7_Click;
+         //   label7.Click += label7_Click;
             // 
             // adddataBTN1
             // 
@@ -386,7 +386,7 @@
             pictureBox8.Size = new Size(1576, 98);
             pictureBox8.TabIndex = 41;
             pictureBox8.TabStop = false;
-            pictureBox8.Click += pictureBox8_Click;
+          //  pictureBox8.Click += pictureBox8_Click;
             // 
             // adddataBTN2
             // 
@@ -524,7 +524,7 @@
             Margin = new Padding(4);
             Name = "Form2";
             Text = "Form2";
-            Load += Form2_Load_1;
+//            Load += Form2_Load_1;
             ((System.ComponentModel.ISupportInitialize)BackgroundBox).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();

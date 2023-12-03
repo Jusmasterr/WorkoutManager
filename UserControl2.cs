@@ -29,19 +29,10 @@ namespace WorkoutManager
             label1.Text = "Ausgewählte Option: " + comboBox1.SelectedItem.ToString();
         }
         private void pictureBox1_Click(object sender, EventArgs e)
-        { 
+        {  
 
         }
 
-        private void BackgroundBox_Click(object sender, EventArgs e)
-        {
-            // Ihr Code hier
-        }
-
-        private void UserControl2_Load(object sender, EventArgs e)
-        {
-
-        }
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();

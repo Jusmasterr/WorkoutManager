@@ -92,7 +92,7 @@
             StartLabel.Size = new Size(907, 137);
             StartLabel.TabIndex = 15;
             StartLabel.Text = "Show Schedule";
-            StartLabel.Click += StartLabel_Click_1;
+//            StartLabel.Click += StartLabel_Click_1;
             // 
             // BackgroundBox
             // 
@@ -115,7 +115,7 @@
             pictureBox1.Size = new Size(2567, 1324);
             pictureBox1.TabIndex = 18;
             pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click_1;
+          //  pictureBox1.Click += pictureBox1_Click_1;
             // 
             // label7
             // 
@@ -126,7 +126,7 @@
             label7.Size = new Size(167, 48);
             label7.TabIndex = 57;
             label7.Text = "Session 1\r\n";
-            label7.Click += label7_Click;
+         //   label7.Click += label7_Click;
             // 
             // pictureBox8
             // 
@@ -136,7 +136,7 @@
             pictureBox8.Size = new Size(1576, 80);
             pictureBox8.TabIndex = 56;
             pictureBox8.TabStop = false;
-            pictureBox8.Click += pictureBox8_Click;
+         //   pictureBox8.Click += pictureBox8_Click;
             // 
             // label6
             // 
@@ -147,7 +147,7 @@
             label6.Size = new Size(167, 48);
             label6.TabIndex = 55;
             label6.Text = "Session 7";
-            label6.Click += label6_Click;
+        //    label6.Click += label6_Click;
             // 
             // pictureBox7
             // 
@@ -157,7 +157,7 @@
             pictureBox7.Size = new Size(1576, 98);
             pictureBox7.TabIndex = 54;
             pictureBox7.TabStop = false;
-            pictureBox7.Click += pictureBox7_Click;
+        //    pictureBox7.Click += pictureBox7_Click;
             // 
             // label5
             // 
@@ -168,7 +168,7 @@
             label5.Size = new Size(167, 48);
             label5.TabIndex = 53;
             label5.Text = "Session 6";
-            label5.Click += label5_Click;
+          //  label5.Click += label5_Click;
             // 
             // pictureBox6
             // 
@@ -178,7 +178,7 @@
             pictureBox6.Size = new Size(1576, 98);
             pictureBox6.TabIndex = 52;
             pictureBox6.TabStop = false;
-            pictureBox6.Click += pictureBox6_Click;
+          //  pictureBox6.Click += pictureBox6_Click;
             // 
             // label4
             // 
@@ -189,7 +189,7 @@
             label4.Size = new Size(167, 48);
             label4.TabIndex = 51;
             label4.Text = "Session 5";
-            label4.Click += label4_Click;
+         //   label4.Click += label4_Click;
             // 
             // pictureBox5
             // 
@@ -199,7 +199,7 @@
             pictureBox5.Size = new Size(1576, 98);
             pictureBox5.TabIndex = 50;
             pictureBox5.TabStop = false;
-            pictureBox5.Click += pictureBox5_Click;
+          //  pictureBox5.Click += pictureBox5_Click;
             // 
             // label3
             // 
@@ -210,7 +210,7 @@
             label3.Size = new Size(167, 48);
             label3.TabIndex = 49;
             label3.Text = "Session 4";
-            label3.Click += label3_Click;
+        //    label3.Click += label3_Click;
             // 
             // pictureBox4
             // 
@@ -220,7 +220,7 @@
             pictureBox4.Size = new Size(1576, 98);
             pictureBox4.TabIndex = 48;
             pictureBox4.TabStop = false;
-            pictureBox4.Click += pictureBox4_Click;
+        //    pictureBox4.Click += pictureBox4_Click;
             // 
             // label2
             // 
@@ -231,7 +231,7 @@
             label2.Size = new Size(167, 48);
             label2.TabIndex = 47;
             label2.Text = "Session 3";
-            label2.Click += label2_Click;
+         //   label2.Click += label2_Click;
             // 
             // pictureBox3
             // 
@@ -241,7 +241,7 @@
             pictureBox3.Size = new Size(1576, 98);
             pictureBox3.TabIndex = 46;
             pictureBox3.TabStop = false;
-            pictureBox3.Click += pictureBox3_Click;
+        //    pictureBox3.Click += pictureBox3_Click;
             // 
             // label1
             // 
@@ -252,7 +252,7 @@
             label1.Size = new Size(167, 48);
             label1.TabIndex = 45;
             label1.Text = "Session 2";
-            label1.Click += label1_Click;
+         //   label1.Click += label1_Click;
             // 
             // pictureBox2
             // 
@@ -262,7 +262,7 @@
             pictureBox2.Size = new Size(1576, 98);
             pictureBox2.TabIndex = 44;
             pictureBox2.TabStop = false;
-            pictureBox2.Click += pictureBox2_Click;
+         //   pictureBox2.Click += pictureBox2_Click;
             // 
             // comboBox1
             // 
@@ -271,7 +271,7 @@
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(363, 56);
             comboBox1.TabIndex = 58;
-            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+          //  comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
             // comboBox2
             // 
